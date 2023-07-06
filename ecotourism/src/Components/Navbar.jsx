@@ -20,7 +20,14 @@ import {
     CloseIcon,
     ChevronDownIcon,
     ChevronRightIcon,
+   
   } from '@chakra-ui/icons';
+
+  import { SiGoogleearth } from 'react-icons/si';
+
+
+  
+  
   
   import {Link as Rlink} from 'react-router-dom'
   
@@ -38,7 +45,7 @@ import {
           borderBottom={1}
           borderStyle={'solid'}
           borderColor={useColorModeValue('gray.200', 'gray.900')}
-          backgroundColor={'#7DBBAB'}
+          backgroundColor={'#7dbbab'}
         //  style={{backgroundImage: "linear-gradient(to right , #215f37, #125037, #0c4134, #0f332d, #132423)"}}
   
           align={'center'}>
@@ -57,6 +64,8 @@ import {
             />
           </Flex>
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
+         
+           
             <Text
                as={Rlink}
                to={'/'}
@@ -68,8 +77,10 @@ import {
               fontSize={'lg'}
               fontWeight={800}
               >
-              Ecotourism
+          {/* <SiGoogleearth style={{marginTop:"10px"}}/>  */}
+          <SiGoogleearth style={{marginLeft:"-30px",marginBottom:"-26px"}} size={30}/> Ecotourism
             </Text>
+           
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
@@ -86,7 +97,7 @@ import {
               to={'/login'}
               fontSize={'lg'}
               fontWeight={500}
-              color={"whiteAlpha.700"}
+              color={"whiteAlpha.900"}
               variant={'link'}
               // href={'/login'}
               >
@@ -122,7 +133,7 @@ import {
   }
   
   const DesktopNav = () => {
-    const linkColor = useColorModeValue('whiteAlpha.700', 'white');
+    const linkColor = useColorModeValue('whiteAlpha.900', 'white');
     const linkHoverColor = useColorModeValue('gray.200', 'white');
     const popoverContentBgColor = useColorModeValue('white', 'gray.800');
   
@@ -176,12 +187,12 @@ import {
         display={'block'}
         p={2}
         rounded={'md'}
-        _hover={{ bg: useColorModeValue('orange.50', 'gray.900') }}>
+        _hover={{ bg: useColorModeValue('teal.50', 'gray.200') }}>
         <Stack direction={'row'} align={'center'}>
           <Box>
             <Text
               transition={'all .3s ease'}
-              _groupHover={{ color: 'orange.400' }}
+              _groupHover={{ color: 'teal.300' }}
               fontWeight={500}>
               {label}
             </Text>
@@ -205,7 +216,7 @@ import {
   const MobileNav = () => {
     return (
       <Stack
-        bg={useColorModeValue('white', 'gray.800')}
+        bg={useColorModeValue('white', 'gray.500')}
         p={4}
         display={{ md: 'none' }}>
         {NAV_ITEMS.map((navItem) => (
