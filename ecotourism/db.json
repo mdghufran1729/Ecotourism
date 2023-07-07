@@ -1,0 +1,110 @@
+{
+    "destinations": {
+      "mountain": [
+        {
+          "id": 1,
+          "name": "Mountain Destination 1",
+          "image": "https://images.unsplash.com/photo-1541538055554-84f778dd6016?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "description": "Explore the breathtaking beauty of the mountains "
+        },
+        {
+          "id": 2,
+          "name": "",
+          "image": "https://images.unsplash.com/photo-1542562939-14b463fcdae9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Immerse yourself in the breathtaking beauty of majestic mountains."
+        },
+        {
+          "id": 3,
+          "name": "Mountain Destination 3",
+          "image": "https://images.unsplash.com/photo-1683009686716-ac2096a5a73b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "description": "Explore the breathtaking beauty of the mountains "
+        },
+        {
+          "id": 4,
+          "name": "Mountain Destination 4",
+          "image": "https://images.unsplash.com/photo-1682687219800-bba120d709c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Explore the breathtaking beauty of the mountains "
+        }
+      ],
+      "beach": [
+        {
+          "id": 1,
+          "name": "Beach Destination 1",
+          "image": "https://images.unsplash.com/photo-1682695798522-6e208131916d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmVhY2glMjBkZXN0aW5hdGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "description": "Relax and enjoy the sandy beaches and crystal-clear waters 1."
+        },
+        {
+          "id": 2,
+          "name": "Beach Destination 2",
+          "image": "https://images.unsplash.com/photo-1541681474356-5c6ad40c7990?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "description": "Relax and enjoy the sandy beaches and crystal-clear waters 2."
+        }
+        ,
+        {
+          "id": 3,
+          "name": "Beach Destination 2",
+          "image": "https://images.unsplash.com/photo-1523358527035-6d9887f03cac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+          "description": "Relax and enjoy the sandy beaches and crystal-clear waters 2."
+        },
+        {
+          "id": 4,
+          "name": "Beach Destination 2",
+          "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "description": "Relax and enjoy the sandy beaches and crystal-clear waters 2."
+        }
+      ],
+      "resort": [
+        {
+          "id": 1,
+          "name": "Resort Destination 1",
+          "image": "https://images.unsplash.com/photo-1602088435293-14c7dd28b867?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
+          "description": "Indulge in luxury and pampering at our world-class resorts 1."
+        },
+        {
+          "id": 2,
+          "name": "Resort Destination 2",
+          "image": "https://images.unsplash.com/photo-1652868965179-691e57c7ea10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
+          "description": "Indulge in luxury and pampering at our world-class resorts 2."
+        },
+        {
+          "id": 3,
+          "name": "Resort Destination 2",
+          "image": "https://images.unsplash.com/photo-1630988276810-1565ec1b8ff3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
+          "description": "Indulge in luxury and pampering at our world-class resorts 2."
+        },
+        {
+          "id": 4,
+          "name": "Resort Destination 2",
+          "image": "https://images.unsplash.com/photo-1652868965179-691e57c7ea10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
+          "description": "Indulge in luxury and pampering at our world-class resorts 2."
+        }
+      ],
+      "honeymoon": [
+        {
+          "id": 1,
+          "name": "Honeymoon Destination 1",
+          "image": "https://plus.unsplash.com/premium_photo-1661754437782-5d20e63de5f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
+          "description": "Begin your journey together in a romantic honeymoon destination 1."
+        },
+        {
+          "id": 2,
+          "name": "Honeymoon Destination 2",
+          "image": "https://plus.unsplash.com/premium_photo-1661384375879-0f428fe39e0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
+          "description": "Begin your journey together in a romantic honeymoon destination 2."
+        },
+        {
+          "id": 3,
+          "name": "Honeymoon Destination 2",
+          "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
+          "description": "Begin your journey together in a romantic honeymoon destination 2."
+        },
+        {
+          "id": 4,
+          "name": "Honeymoon Destination 2",
+          "image": "https://images.unsplash.com/photo-1519123721878-35e5fcfc2dfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
+          "description": "Begin your journey together in a romantic honeymoon destination 2."
+        }
+      ]
+    }
+  }
+  
