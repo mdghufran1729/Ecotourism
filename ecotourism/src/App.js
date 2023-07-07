@@ -5,7 +5,9 @@ import { Provider } from "react-redux";
 import store from "./Redux/store";
 import AllRoutes from "./Routes/AllRoutes";
 import { BrowserRouter as Router } from "react-router-dom";
-import { WithSubnavigation } from "./Components/Navbar";
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar'
+
 const theme = extendTheme({
   styles: {
     global: {
@@ -31,8 +33,9 @@ function App() {
               minHeight: "100vh",
             }}
           >
-            <WithSubnavigation />
+            <Navbar/>
             <AllRoutes />
+            <Footer/>
           </div>
         </Router>
       </ChakraProvider>
