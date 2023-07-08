@@ -1,0 +1,16 @@
+#btn{
+    background-color: #3e7685;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.container{
+    margin-left: 50%;
+}
+#text{
+    color:#3e7685;
+    font-size: large;
+    border-radius: 15px;
+}

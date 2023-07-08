@@ -1,0 +1,89 @@
+.box{
+    max-width: 600px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top:  0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    background-color: rgb(250, 249, 249, 0.8);
+}
+#bx{
+    padding: 5%;
+    
+}
+
+#page {
+    margin-top: 0;
+    background-image: url('https://img.freepik.com/premium-vector/mountain-green-field-alpine-landscape-nature-with-wooden-houses_194708-1779.jpg?w=1380');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+#nameContainer{
+    display: flex;
+    gap: 10px;
+}
+#cardno{
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+
+}
+
+.inputBx{
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+.inputBx:focus{
+    border-style: solid;
+    border-radius: 3px;
+   outline: transparent solid 2px;
+   border-color: grey;
+}
+#cardholder{
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+}
+#expiry{
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+}
+#cvv{
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+}
+
+
+#heading{
+    text-align: center;
+    color: #3e7685;
+    font-size: 35px;
+    /* letter-spacing: 5px;
+    word-spacing: 10px; */
+}
+.btn{
+    margin-left: 40%;
+    width: 20%;
+    height: 50px;
+    border: none;
+    background-color: #3e7685;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 350;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.btn:hover{
+    background-color: #6ba2b1;
+    cursor: pointer;
+}
+.required {
+    color: red;
+    margin-left: 2px;
+  }
