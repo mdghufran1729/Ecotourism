@@ -44,7 +44,8 @@ const Packages = () => {
   const sortedPackagesByPrice = sortPackagesByPrice(priceSortOrder);
 
   const combinedPackages = [
-    ...new Set([...sortedPackagesByRating, ...sortedPackagesByPrice]),
+    ...sortedPackagesByRating,
+    ...sortedPackagesByPrice,
   ];
 
   return (
@@ -68,23 +69,21 @@ const Packages = () => {
                 <option value="descending">Sort by Rating (High to Low)</option>
               </Select>
             </Box>
-            <Box>
-              <Select
-                value={priceSortOrder}
-                onChange={handlePriceSortChange}
-                width="100%"
-                maxW="200px"
-              >
-                <option value="ascending">Sort by Price (Low to High)</option>
-                <option value="descending">Sort by Price (High to Low)</option>
-              </Select>
-            </Box>
           </Flex>
         </Box>
 
-        {combinedPackages.map((packageData, index) => (
-          <PackagesCard key={index} {...packageData} />
-        ))}
+        {combinedPackages
+          .sort((a, b) => {
+            if (ratingSortOrder === "ascending") {
+              return a.rating - b.rating;
+            } else if (ratingSortOrder === "descending") {
+              return b.rating - a.rating;
+            }
+            return 0;
+          })
+          .map((packageData, index) => (
+            <PackagesCard key={index} {...packageData} />
+          ))}
       </Flex>
     </Center>
   );
