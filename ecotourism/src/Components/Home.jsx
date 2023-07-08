@@ -57,8 +57,10 @@ const Home = () => {
           and sustainable lifestyles in Ecotourism picturesque hillside
           villages.
         </Text>
+
         <Button
           as={Rlink}
+          to={"/destinations"}
           display={{ base: "none", md: "inline-flex" }}
           fontSize="lg"
           fontWeight={600}
@@ -70,7 +72,8 @@ const Home = () => {
           _hover={{
             bg: "orange.300",
           }}
-          mb={400} // Add bottom margin to the button
+          mb={400}
+          // Add bottom margin to the button
         >
           Start Exploring
         </Button>

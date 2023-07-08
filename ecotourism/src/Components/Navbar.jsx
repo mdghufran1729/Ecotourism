@@ -119,6 +119,7 @@ export default function WithSubnavigation() {
           )}
           <Button
             as={Rlink}
+            to={"/payments"}
             display={{ base: "none", md: "inline-flex" }}
             fontSize={"lg"}
             fontWeight={600}
@@ -319,7 +320,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "Activities",
-    href: "/activities",
+    href: "/destinations",
   },
   {
     label: "Packages",

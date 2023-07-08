@@ -49,7 +49,7 @@ const Packages = () => {
   ];
 
   return (
-    <Center bg="transparent">
+    <Center bg="transparent" mt={50} mb={200}>
       <Flex
         flexWrap="wrap"
         justifyContent="center"
