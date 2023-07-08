@@ -15,7 +15,7 @@ import {
 } from "@chakra-ui/react";
 import { RiStarFill, RiStarHalfLine, RiStarLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
-
+import { Link as Rlink } from "react-router-dom";
 const PackagesCard = ({
   image,
   title,
@@ -107,7 +107,9 @@ const PackagesCard = ({
       <CardFooter display="flex" justifyContent="center">
         <ButtonGroup spacing="2" alignItems="center">
           <Link to={`/booking/${title}`}>
-            <Button colorScheme="blue">Book Now</Button>
+            <Button colorScheme="teal" as={Rlink} to={"/address"}>
+              Book Now
+            </Button>
           </Link>
         </ButtonGroup>
       </CardFooter>

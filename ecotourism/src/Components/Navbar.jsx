@@ -119,7 +119,7 @@ export default function WithSubnavigation() {
           )}
           <Button
             as={Rlink}
-            to={"/payments"}
+            to={"/destinations"}
             display={{ base: "none", md: "inline-flex" }}
             fontSize={"lg"}
             fontWeight={600}

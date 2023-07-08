@@ -1,99 +1,215 @@
-.bx{
-    max-width: 525px;
-    margin: 0 auto;
-    margin-top:  0;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #ffffff;
-    background-color: rgb(250, 249, 249, 0.8);
+.bx {
+  max-width: 525px;
+  margin: 0 auto;
+  margin-top: 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  background-color: rgb(250, 249, 249, 0.8);
 }
-#box{
-    padding: 5%;
+#box {
+  padding: 5%;
 }
 
 #pg {
+  margin-top: 0;
+  background-image: url("https://img.freepik.com/premium-vector/mountain-green-field-alpine-landscape-nature-with-wooden-houses_194708-1779.jpg?w=1380");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.inputBx:focus {
+  border-style: solid;
+  border-radius: 3px;
+  outline: transparent solid 2px;
+  border-color: grey;
+}
+#nameContainer {
+  display: flex;
+  gap: 10px;
+}
+#firstName {
+  width: 250px;
+  height: 30px;
+  margin-top: 5px;
+}
+#lastName {
+  width: 250px;
+  height: 30px;
+  margin-top: 5px;
+}
+#phoneNumber {
+  width: 250px;
+  height: 30px;
+  margin-top: 5px;
+}
+#dateOfBirth {
+  width: 250px;
+  height: 30px;
+  margin-top: 5px;
+}
+#email {
+  width: 513px;
+  height: 30px;
+  margin-top: 5px;
+}
+#street {
+  width: 513px;
+  height: 30px;
+  margin-top: 5px;
+}
+#address {
+  width: 513px;
+  height: 30px;
+  margin-top: 5px;
+}
+#cityDiv {
+  display: flex;
+  gap: 10px;
+}
+#city {
+  width: 250px;
+  height: 30px;
+  margin-top: 5px;
+}
+#state {
+  width: 250px;
+  height: 30px;
+  margin-top: 5px;
+}
+#zipcode {
+  width: 513px;
+  height: 30px;
+  margin-top: 5px;
+}
+#DOB {
+  display: flex;
+  gap: 10px;
+}
+#head {
+  text-align: center;
+  color: #3e7685;
+  font-size: 35px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+.button {
+  margin-left: 40%;
+  width: 20%;
+  height: 50px;
+  border: none;
+  background-color: #3e7685;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 350;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.button:hover {
+  background-color: #79bacc;
+  cursor: pointer;
+}
+.required {
+  color: red;
+  margin-left: 2px;
+}
+@media (max-width: 620px) {
+  .bx {
+    max-width: 300px;
+    margin: 0 auto;
     margin-top: 0;
-    background-image: url('https://img.freepik.com/premium-vector/mountain-green-field-alpine-landscape-nature-with-wooden-houses_194708-1779.jpg?w=1380');
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  #box {
+    padding: 5%;
+  }
+
+  #pg {
+    margin-top: 0;
+    background-image: url("https://i.pinimg.com/564x/55/e2/e9/55e2e9928218217a11358e5557461f3e.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-  .inputBx:focus{
+  #nameContainer {
+    display: flex;
+    gap: 10px;
+  }
+  #firstName {
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  .inputBx:focus {
     border-style: solid;
     border-radius: 3px;
-   outline: transparent solid 2px;
-   border-color: grey;
-}
-#nameContainer{
+    outline: transparent solid 2px;
+    border-color: grey;
+  }
+  #lastName {
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  #phoneNumber {
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  #dateOfBirth {
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  #email {
+    width: 513px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  #street {
+    width: 513px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  #address {
+    width: 513px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  #cityDiv {
     display: flex;
     gap: 10px;
-}
-#firstName{
+  }
+  #city {
     width: 250px;
     height: 30px;
     margin-top: 5px;
-}
-#lastName{
+  }
+  #state {
     width: 250px;
     height: 30px;
     margin-top: 5px;
-}
-#phoneNumber{
-    width: 250px;
-    height: 30px;
-    margin-top: 5px;
-}
-#dateOfBirth{
-    width: 250px;
-    height: 30px;
-    margin-top: 5px;
-}
-#email{
+  }
+  #zipcode {
     width: 513px;
     height: 30px;
     margin-top: 5px;
-}
-#street{
-    width: 513px;
-    height: 30px;
-    margin-top: 5px;
-}
-#address{
-    width: 513px;
-    height: 30px;
-    margin-top: 5px;
-}
-#cityDiv{
+  }
+  #DOB {
     display: flex;
     gap: 10px;
-}
-#city{
-    width: 250px;
-    height: 30px;
-    margin-top: 5px;
-}
-#state{
-    width: 250px;
-    height: 30px;
-    margin-top: 5px;
-}
-#zipcode{
-    width: 513px;
-    height: 30px;
-    margin-top: 5px;
-}
-#DOB{
-    display: flex;
-    gap: 10px;
-}
-#head{
+  }
+  #head {
     text-align: center;
     color: #3e7685;
     font-size: 35px;
     letter-spacing: 5px;
     word-spacing: 10px;
-}
-.button{
+  }
+  .button {
     margin-left: 40%;
     width: 20%;
     height: 50px;
@@ -105,129 +221,18 @@
     font-size: 15px;
     margin-top: 25px;
     margin-bottom: 25px;
-}
-.button:hover{
-    background-color: #79bacc;
+  }
+  .button:hover {
+    background-color: #3e7685;
     cursor: pointer;
-}
-.required {
+  }
+  .required {
     color: red;
     margin-left: 2px;
   }
-  @media (max-width: 620px) {
-    .bx{
-        max-width: 300px;
-        margin: 0 auto;
-        margin-top:  0;
-        padding: 10px;
-        border-radius: 5px;
-        background-color: #ffffff;
-    }
-    #box{
-        padding: 5%;
-    }
-    
-    #pg {
-        margin-top: 0;
-        background-image: url('https://i.pinimg.com/564x/55/e2/e9/55e2e9928218217a11358e5557461f3e.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-    #nameContainer{
-        display: flex;
-        gap: 10px;
-    }
-    #firstName{
-        width: 250px;
-        height: 30px;
-        margin-top: 5px;
-    }
-    .inputBx:focus{
-        border-style: solid;
-        border-radius: 3px;
-       outline: transparent solid 2px;
-       border-color: grey;
-    }
-    #lastName{
-        width: 250px;
-        height: 30px;
-        margin-top: 5px;
-    }
-    #phoneNumber{
-        width: 250px;
-        height: 30px;
-        margin-top: 5px;
-    }
-    #dateOfBirth{
-        width: 250px;
-        height: 30px;
-        margin-top: 5px;
-    }
-    #email{
-        width: 513px;
-        height: 30px;
-        margin-top: 5px;
-    }
-    #street{
-        width: 513px;
-        height: 30px;
-        margin-top: 5px;
-    }
-    #address{
-        width: 513px;
-        height: 30px;
-        margin-top: 5px;
-    }
-    #cityDiv{
-        display: flex;
-        gap: 10px;
-    }
-    #city{
-        width: 250px;
-        height: 30px;
-        margin-top: 5px;
-    }
-    #state{
-        width: 250px;
-        height: 30px;
-        margin-top: 5px;
-    }
-    #zipcode{
-        width: 513px;
-        height: 30px;
-        margin-top: 5px;
-    }
-    #DOB{
-        display: flex;
-        gap: 10px;
-    }
-    #head{
-        text-align: center;
-        color: #3e7685;
-        font-size: 35px;
-        letter-spacing: 5px;
-        word-spacing: 10px;
-    }
-    .button{
-        margin-left: 40%;
-        width: 20%;
-        height: 50px;
-        border: none;
-        background-color: #3e7685;
-        border-radius: 8px;
-        color: #ffffff;
-        font-weight: 350;
-        font-size: 15px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-    .button:hover{
-        background-color: #3e7685;
-        cursor: pointer;
-    }
-    .required {
-        color: red;
-        margin-left: 2px;
-      }
-  }
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
