@@ -5,8 +5,9 @@ import { Provider } from "react-redux";
 import store from "./Redux/store";
 import AllRoutes from "./Routes/AllRoutes";
 import { BrowserRouter as Router } from "react-router-dom";
-import Footer from './Components/Footer';
-import Navbar from './Components/Navbar'
+import { Auth0Provider } from "@auth0/auth0-react";
+import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
 
 const theme = extendTheme({
   styles: {
@@ -23,20 +24,26 @@ function App() {
     <Provider store={store}>
       <ChakraProvider theme={theme}>
         <Router>
-          <div
-            className="App"
-            style={{
-              backgroundImage:
-                "url(https://img.freepik.com/premium-vector/mountain-green-field-alpine-landscape-nature-with-wooden-houses_194708-1779.jpg?w=1380)",
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-              minHeight: "100vh",
-            }}
+          <Auth0Provider
+            domain="dev-4hfinyqk536afex2.us.auth0.com"
+            clientId="0tABiSQgYlPIMW1n7ifHalYBCukvJXLu"
+            redirectUri={window.location.origin}
           >
-            <Navbar/>
-            <AllRoutes />
-            <Footer/>
-          </div>
+            <div
+              className="App"
+              style={{
+                backgroundImage:
+                  "url(https://img.freepik.com/premium-vector/mountain-green-field-alpine-landscape-nature-with-wooden-houses_194708-1779.jpg?w=1380)",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                minHeight: "100vh",
+              }}
+            >
+              <Navbar />
+              <AllRoutes />
+              <Footer />
+            </div>
+          </Auth0Provider>
         </Router>
       </ChakraProvider>
     </Provider>
