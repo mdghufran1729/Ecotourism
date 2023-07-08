@@ -1,0 +1,128 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  height: 200px;
+}
+
+.image-container img {
+  width: 320px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-container {
+  width: 320px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #b2b2b2;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.card-details {
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.card-content p {
+  text-align: justify;
+}
+
+.card-buttons {
+  margin-top: 40px;
+}
+
+.card-buttons button {
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  border: 1px solid #b2b2b2;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 767px) {
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .card-container {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .card-details {
+    width: 100%;
+  }
+}
+
+/* Responsive styles for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    padding: 20px;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .card-container {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .card-details {
+    width: 100%;
+  }
+}
+
+/* Responsive styles for laptops and larger screens */
+@media (min-width: 1024px) {
+  .container {
+    padding: 40px;
+  }
+
+  .image-container img {
+    width: 400px;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .card-container {
+    width: 400px;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .card-details {
+    width: 400px;
+  }
+}

@@ -311,22 +311,11 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Home",
-    children: [
-      {
-        label: "Explore Design Work",
-        subLabel: "Trending Design to inspire you",
-        href: "#",
-      },
-      {
-        label: "New & Noteworthy",
-        subLabel: "Up-and-coming Designers",
-        href: "#",
-      },
-    ],
+    href: "/",
   },
   {
     label: "Destinations",
-    href: "/packages",
+    href: "/destinations",
   },
   {
     label: "Activities",
@@ -334,10 +323,10 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "Packages",
-    href: "/learn",
+    href: "/packages",
   },
   {
     label: "About Us",
-    href: "hire",
+    href: "/footer",
   },
 ];
