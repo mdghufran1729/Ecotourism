@@ -4,9 +4,7 @@ import { Navigate, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 
 export default function PrivateRoute({ children }) {
-  const isAuthenticated = useSelector((store) => {
-    return store.isAuthenticated;
-  });
+  const isAuthenticated = useSelector((store) => store.isAuthenticated);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -23,6 +21,6 @@ export default function PrivateRoute({ children }) {
       });
     }
   }, [isAuthenticated, navigate]);
-  console.log(isAuthenticated);
+
   return isAuthenticated ? children : <Navigate to="/" />;
 }

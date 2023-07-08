@@ -1,110 +1,197 @@
 {
-    "destinations": {
-      "mountain": [
-        {
-          "id": 1,
-          "name": "Mountain Destination 1",
-          "image": "https://images.unsplash.com/photo-1541538055554-84f778dd6016?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-          "description": "Explore the breathtaking beauty of the mountains "
-        },
-        {
-          "id": 2,
-          "name": "",
-          "image": "https://images.unsplash.com/photo-1542562939-14b463fcdae9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-          "description": "Immerse yourself in the breathtaking beauty of majestic mountains."
-        },
-        {
-          "id": 3,
-          "name": "Mountain Destination 3",
-          "image": "https://images.unsplash.com/photo-1683009686716-ac2096a5a73b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-          "description": "Explore the breathtaking beauty of the mountains "
-        },
-        {
-          "id": 4,
-          "name": "Mountain Destination 4",
-          "image": "https://images.unsplash.com/photo-1682687219800-bba120d709c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-          "description": "Explore the breathtaking beauty of the mountains "
-        }
-      ],
-      "beach": [
-        {
-          "id": 1,
-          "name": "Beach Destination 1",
-          "image": "https://images.unsplash.com/photo-1682695798522-6e208131916d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmVhY2glMjBkZXN0aW5hdGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-          "description": "Relax and enjoy the sandy beaches and crystal-clear waters 1."
-        },
-        {
-          "id": 2,
-          "name": "Beach Destination 2",
-          "image": "https://images.unsplash.com/photo-1541681474356-5c6ad40c7990?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-          "description": "Relax and enjoy the sandy beaches and crystal-clear waters 2."
-        }
-        ,
-        {
-          "id": 3,
-          "name": "Beach Destination 2",
-          "image": "https://images.unsplash.com/photo-1523358527035-6d9887f03cac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-          "description": "Relax and enjoy the sandy beaches and crystal-clear waters 2."
-        },
-        {
-          "id": 4,
-          "name": "Beach Destination 2",
-          "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-          "description": "Relax and enjoy the sandy beaches and crystal-clear waters 2."
-        }
-      ],
-      "resort": [
-        {
-          "id": 1,
-          "name": "Resort Destination 1",
-          "image": "https://images.unsplash.com/photo-1602088435293-14c7dd28b867?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
-          "description": "Indulge in luxury and pampering at our world-class resorts 1."
-        },
-        {
-          "id": 2,
-          "name": "Resort Destination 2",
-          "image": "https://images.unsplash.com/photo-1652868965179-691e57c7ea10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
-          "description": "Indulge in luxury and pampering at our world-class resorts 2."
-        },
-        {
-          "id": 3,
-          "name": "Resort Destination 2",
-          "image": "https://images.unsplash.com/photo-1630988276810-1565ec1b8ff3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
-          "description": "Indulge in luxury and pampering at our world-class resorts 2."
-        },
-        {
-          "id": 4,
-          "name": "Resort Destination 2",
-          "image": "https://images.unsplash.com/photo-1652868965179-691e57c7ea10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
-          "description": "Indulge in luxury and pampering at our world-class resorts 2."
-        }
-      ],
-      "honeymoon": [
-        {
-          "id": 1,
-          "name": "Honeymoon Destination 1",
-          "image": "https://plus.unsplash.com/premium_photo-1661754437782-5d20e63de5f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
-          "description": "Begin your journey together in a romantic honeymoon destination 1."
-        },
-        {
-          "id": 2,
-          "name": "Honeymoon Destination 2",
-          "image": "https://plus.unsplash.com/premium_photo-1661384375879-0f428fe39e0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
-          "description": "Begin your journey together in a romantic honeymoon destination 2."
-        },
-        {
-          "id": 3,
-          "name": "Honeymoon Destination 2",
-          "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
-          "description": "Begin your journey together in a romantic honeymoon destination 2."
-        },
-        {
-          "id": 4,
-          "name": "Honeymoon Destination 2",
-          "image": "https://images.unsplash.com/photo-1519123721878-35e5fcfc2dfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=100",
-          "description": "Begin your journey together in a romantic honeymoon destination 2."
-        }
-      ]
+  "destinations": [
+    {
+      "id": 1,
+      "name": "mountain",
+      "image": "https://images.unsplash.com/photo-1542562939-14b463fcdae9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Immerse yourself in the breathtaking beauty of majestic mountains.",
+      "price": "500",
+      "country": "peru"
+    },
+    {
+      "id": 2,
+      "name": "beach",
+      "image": "https://images.unsplash.com/photo-1519941459598-a1588781b56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Sandy shores, turquoise waters, and blissful relaxation under the sun.",
+      "price": "200",
+      "country": "Peru"
+    },
+    {
+      "id": 3,
+      "name": "mountain",
+      "image": "https://images.unsplash.com/photo-1683009686716-ac2096a5a73b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Explore the breathtaking beauty of the mountains ",
+      "price": "430",
+      "country": "India"
+    },
+    {
+      "id": 4,
+      "name": "mountain",
+      "image": "https://images.unsplash.com/photo-1682687219800-bba120d709c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Majestic peaks that inspire awe and offer breathtaking vistas. ",
+      "price": "300",
+      "country": "Malta"
+    },
+
+    {
+      "id": 5,
+      "name": "beach",
+      "image": "https://images.unsplash.com/photo-1682695798522-6e208131916d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmVhY2glMjBkZXN0aW5hdGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Relax and enjoy the sandy beaches and crystal-clear waters ",
+      "price": "340",
+      "country": "Spain"
+    },
+    {
+      "id": 6,
+      "name": "mountain",
+      "image": "https://images.unsplash.com/photo-1541538055554-84f778dd6016?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Explore the breathtaking beauty of the mountains ",
+      "price": "470",
+      "country": "Nepal"
+    },
+    {
+      "id": 7,
+      "name": "beach",
+      "image": "https://images.unsplash.com/photo-1541681474356-5c6ad40c7990?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Sun, sand, and endless waves of tranquility. ",
+      "price": "200",
+      "country": "Saudi"
+    },
+    {
+      "id": 8,
+      "name": "beach",
+      "image": "https://images.unsplash.com/photo-1630988276810-1565ec1b8ff3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Relax and enjoy the sandy beaches and crystal-clear waters ",
+      "price": "100",
+      "country": "Fiji"
+    },
+    {
+      "id": 9,
+      "name": "beach",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Sandy shores, turquoise waters, and blissful relaxation under the sun.",
+      "price": "110",
+      "country": "Peru"
+    },
+    {
+      "id": 10,
+      "name": "resort",
+      "image": "https://images.unsplash.com/photo-1602088435293-14c7dd28b867?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Indulge in luxury and pampering at our world-class resorts",
+      "price": "600",
+      "country": "Fiji"
+    },
+    {
+      "id": 11,
+      "name": "resort",
+      "image": "https://images.unsplash.com/photo-1652868965179-691e57c7ea10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Luxurious retreats, offering indulgence and unforgettable experiences for guests. ",
+      "price": "700",
+      "country": "Brazil"
+    },
+    {
+      "id": 12,
+      "name": "resort",
+      "image": "https://images.unsplash.com/photo-1523358527035-6d9887f03cac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Indulge in luxury and pampering at our world-class resorts ",
+      "price": "530",
+      "country": "Spain"
+    },
+    {
+      "id": 13,
+      "name": "resort",
+      "image": "https://images.unsplash.com/photo-1652868965179-691e57c7ea10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": " Unwind in paradise, where luxury meets natural beauty and serenity.",
+      "price": "430",
+      "country": "peru"
+    },
+    {
+      "id": 14,
+      "name": "honeymoon",
+      "image": "https://plus.unsplash.com/premium_photo-1661754437782-5d20e63de5f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Begin your journey together in a romantic honeymoon ",
+      "price": "600",
+      "country": "peru"
+    },
+    {
+      "id": 15,
+      "name": "honeymoon",
+      "image": "https://plus.unsplash.com/premium_photo-1661384375879-0f428fe39e0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "A romantic getaway, celebrating love amidst idyllic surroundings.",
+      "price": "610",
+      "country": "USA"
+    },
+    {
+      "id": 16,
+      "name": "honeymoon",
+      "image": "https://images.unsplash.com/photo-1519123721878-35e5fcfc2dfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Begin your journey together in a romantic honeymoon destination ",
+      "price": "800",
+      "country": " Japan"
+    },
+    {
+      "id": 17,
+      "name": "honeymoon",
+      "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": " Discover enchanting locales that set the stage for lifelong memories.",
+      "price": "830",
+      "country": "Brazil"
+    },
+    {
+      "id": 18,
+      "name": "honeymoon",
+      "image": "https://images.unsplash.com/photo-1677083089706-15223f60c4af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60 ",
+      "description": " Begin your journey together in a romantic honeymoon destination .",
+      "price": "700",
+      "country": "India"
+    },
+    {
+      "id": 19,
+      "name": "honeymoon",
+      "image": "https://plus.unsplash.com/premium_photo-1661284832790-b49f8a251cd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60 ",
+      "description": "A romantic getaway, celebrating love amidst idyllic surroundings.",
+      "price": "600",
+      "country": "USA"
+    },
+    {
+      "id": 20,
+      "name": "mountain",
+      "image": "https://plus.unsplash.com/premium_photo-1676464928817-095b32d77633?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Explore the breathtaking beauty of the mountains ",
+      "price": "460",
+      "country": "Japan"
+    },
+    {
+      "id": 21,
+      "name": "mountain",
+      "image": "https://images.unsplash.com/photo-1682686579688-c2ba945eda0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Explore the breathtaking beauty of the mountains ",
+      "price": "430",
+      "country": "USA"
+    },
+    {
+      "id": 22,
+      "name": "resort",
+      "image": "https://images.unsplash.com/photo-1602088435293-14c7dd28b867?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Luxurious retreats, offering indulgence and unforgettable experiences for guests",
+      "price": "530",
+      "country": " Japan"
+    },
+    {
+      "id": 23,
+      "name": "resort",
+      "image": "https://images.unsplash.com/photo-1602088435293-14c7dd28b867?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Indulge in luxury and pampering at our world-class resorts",
+      "price": "435",
+      "country": "palau"
+    },
+    {
+      "id": 24,
+      "name": "beach",
+      "image": "https://images.unsplash.com/photo-1619025000734-0722968f4310?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "Sandy shores, turquoise waters, and blissful relaxation under the sun.",
+      "price": "454",
+      "country": "Malta"
     }
-  }
-  
+  ]
+}

@@ -91,7 +91,7 @@ export default function WithSubnavigation() {
             Ecotourism
           </Text>
 
-          <Flex display={{ base: "none", md: "flex" }} ml={10}>
+          <Flex display={{ base: "none", md: "flex" }} ml={-2}>
             <DesktopNav />
           </Flex>
         </Flex>
@@ -152,7 +152,7 @@ const DesktopNav = () => {
   const popoverContentBgColor = useColorModeValue("white", "gray.800");
 
   return (
-    <Stack direction={"row"} spacing={4}>
+    <Stack direction={"row"} spacing={0.1}>
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
@@ -327,6 +327,6 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "About Us",
-    href: "/footer",
+    href: "/",
   },
 ];
