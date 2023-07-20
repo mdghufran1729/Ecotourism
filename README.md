@@ -1,4 +1,6 @@
 #Ecotourism Project
+
+
 Welcome to the Ecotourism project! This project is a collaborative effort by our team members to create a platform that promotes sustainable and responsible tourism. Below are the functionalities developed by each team member:
 
 Destination Showcase - Md Ghufran has implemented the destination showcase feature, allowing users to explore various destinations and learn more about the places they can visit.
@@ -12,6 +14,7 @@ Home Page, Navbar & Footer - Raj Srivastava is responsible for the visually appe
 Payment Processing - Raksha Kusum has skillfully handled the payment part, ensuring a smooth and secure payment process for users booking our ecotourism packages.
 
 ###Deployed Link
+
 Explore the Ecotourism website by visiting our deployed link: https://ecotourism-cw.netlify.app/
 
 Thank you for being a part of our journey towards sustainable tourism and making a positive impact on the environment. We hope you enjoy your virtual travel experience with Ecotourism!
