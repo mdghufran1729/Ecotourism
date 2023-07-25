@@ -1,4 +1,4 @@
-# Ecotourism Project
+# Description
 
 Welcome to the Ecotourism project! This project is a collaborative effort by our team members to create a platform that promotes sustainable and responsible tourism. Below are the functionalities developed by each team member:
 
