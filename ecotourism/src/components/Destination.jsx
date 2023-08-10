@@ -16,6 +16,7 @@ import {
   Center,
 } from "@chakra-ui/react";
 import React, { useState, useEffect } from "react";
+
 const Destination = () => {
   const [Data, setData] = useState([]);
   const [name, setName] = useState(null);

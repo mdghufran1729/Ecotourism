@@ -24,7 +24,7 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <div>
-      <Box my={16}>
+      <Box my={16} ml={40}>
         <Text
           fontSize="3xl"
           fontWeight="bold"
@@ -73,6 +73,7 @@ const Home = () => {
             bg: "orange.300",
           }}
           mb={400}
+          ml={20}
           // Add bottom margin to the button
         >
           Start Exploring
